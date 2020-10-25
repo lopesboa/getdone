@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app';
 import React, { FC } from 'react';
 import { ThemeProvider } from 'styled-components';
+import '../../i18n';
 import GlobalStyle from '../styles/global';
 import theme from '../styles/theme';
 
