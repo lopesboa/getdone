@@ -53,6 +53,7 @@ This is a starter boilerplate app I've put together using the following technolo
 * [babel-plugin-inline-react-svg](https://github.com/airbnb/babel-plugin-inline-react-svg) and [next-images](https://www.npmjs.com/package/next-images) to import images in Nest.js & using like a component
 * [enzyme](https://github.com/enzymejs/enzyme) with jest make unit test better
 * [jest](https://jestjs.io) to allow writing unit tests for the project.
+* [i18next](https://www.i18next.com/) internationalization-framework written in and for JavaScript
 * [React-i18next](https://github.com/i18next/react-i18next) Higher-order components and components for React when using i18next.
 
 ## Status
