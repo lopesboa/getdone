@@ -44,7 +44,7 @@ Screenshots will aper here soon.
 ## Status
 Project is: _in progress_
  <!-- _finished_, _no longer continue_  -->
-I steel work on the layout that I will use for develop this project, stay toned.
+I steel work on the layout that I will use for develop this project, stay tuned.
 
 ## Contributing
 I'll be very thankful if you are being interested on making this project better. I encourage everyone to help improve `get & done` with new features, bug fixes and performance issues. Please treat this project as you would treat your own project.
