@@ -41,6 +41,8 @@ Screenshots will aper here soon.
 ```
 ## Setup
 
+## Features
+
 ## Status
 Project is: _in progress_
  <!-- _finished_, _no longer continue_  -->
