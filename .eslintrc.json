@@ -38,8 +38,30 @@
         ]
       }
     ],
-      "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
-      "import/prefer-default-export": "off",
-      "import/no-unresolved": 0
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-unused-vars": [2, { "args": "none" }],
+    "camelcase": "warn",
+    "global-require": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/forbid-prop-types": "warn",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": 0,
+    "import/extensions": ["error", "ignorePackages", {
+      "js": "never",
+      "jsx": "never",
+      "ts": "never",
+      "tsx": "never",
+      "mjs": "never",
+      "json": "never"
+    }]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
     }
   }
+}
