@@ -4,7 +4,7 @@ import React, { FC } from 'react';
 const Home: FC = () => (
   <div>
     <Head>
-      <title>Welcome to GET DONE</title>
+      <title>GET DONE</title>
     </Head>
 
     <main>
