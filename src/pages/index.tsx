@@ -1,14 +1,18 @@
 import Head from 'next/head';
 import React, { FC } from 'react';
+import GetDoneLogo from '../assets/logo.svg';
+import { Container } from '../styles/pages/Home';
 
 const Home: FC = () => (
-  <div>
+  <Container>
     <Head>
       <title>GET DONE</title>
     </Head>
 
     <main>
-      <h1>Hello world</h1>
+      <GetDoneLogo />
+      <h1>Initial Nextjs Structure</h1>
+      <p>Sample structure of Nextjs using and some other cool features.</p>
     </main>
 
     <footer>
@@ -16,7 +20,7 @@ const Home: FC = () => (
         A Bakongo Studio Company
       </a>
     </footer>
-  </div>
+  </Container>
 );
 
 export default Home;
