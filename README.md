@@ -27,7 +27,6 @@
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contributing](#contributing)
@@ -35,7 +34,7 @@
 * [Licence](#licence)
 
 ## General info
-This project is just for test my self, coding and while I learn using different ssr fw.
+This project is just for test my self, coding and while I learn using different technology.
 
 ## Screenshots
 
@@ -46,17 +45,18 @@ Screenshots will aper here soon.
 This is a starter boilerplate app I've put together using the following technologies:
 * [React](https://github.com/facebook/react)
 * [Nextjs](https://nextjs.org/)
-* [Babel](http://babeljs.io) for ES6 and ES7 magic
-* [ESLint](http://eslint.org) to maintain a consistent
-* [Prettier](https://prettier.io/) to maintain code formatter
+* [Babel](http://babeljs.io) for ES6 and ES7 magic.
+* [ESLint](http://eslint.org) to maintain a consistent.
+* [Prettier](https://prettier.io/) to maintain code formatter.
 * [styled-components](https://styled-components.com/) and [next-with-styled-components-examples](https://github.com/vercel/next.js/tree/master/examples/with-styled-components)  to allow using css-in-js
 * [babel-plugin-inline-react-svg](https://github.com/airbnb/babel-plugin-inline-react-svg) and [next-images](https://www.npmjs.com/package/next-images) to import images in Nest.js & using like a component
 * [enzyme](https://github.com/enzymejs/enzyme) and [enzyme-adapter-react-16](https://www.npmjs.com/package/enzyme-adapter-react-16) JavaScript Testing utility for React that makes it easier to test your React Components' output
 * [jest](https://jestjs.io) to allow writing unit tests for the project.
-* [i18next](https://www.i18next.com/) internationalization-framework written in and for JavaScript
+* [i18next](https://www.i18next.com/) internationalization-framework written in and for JavaScript.
 * [React-i18next](https://github.com/i18next/react-i18next) Higher-order components and components for React when using i18next.
-
-## Features
+* [husky](https://github.com/typicode/husky) Husky improves your commits.
+* [git-commit-msg-linter](https://www.npmjs.com/package/git-commit-msg-linter) A git "commit-msg" hook for linting your git commit message.
+* [lint-staged](https://github.com/okonet/lint-staged) Run linters against staged git files.
 
 ## Status
 Project is: _in progress_
