@@ -18,7 +18,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 12,
+    "ecmaVersion": 2020,
     "sourceType": "module"
   },
   "plugins": [
@@ -28,7 +28,7 @@
     "react-hooks"
   ],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
     "space-before-function-paren": "off",
     "react/prop-types": "off",
     "no-console": [
@@ -48,7 +48,7 @@
     "react/forbid-prop-types": "warn",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx", "json"] }],
     "import/prefer-default-export": "off",
     "import/no-unresolved": 0,
     "import/extensions": ["error", "ignorePackages", {
